@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display(){
+            const student=[
+                {
+                    "rollno":121,
+                    "name":"rahul",
+                    "class":"bca",
+                    "fees": 12000
+                },
+                {
+                    "rollno":122,
+                    "name":"pankaj",
+                    "class":"dca",
+                    "fees": 2000
+                },
+                {
+                    "rollno":123,
+                    "name":"manju",
+                    "class":"bcom",
+                    "fees": 56000
+                },
+                {
+                    "rollno":124,
+                    "name":"sanju",
+                    "class":"mca",
+                    "fees": 26000
+                },
+                {
+                    "rollno":125,
+                    "name":"pihu",
+                    "class":"mcom",
+                    "fees": 76000
+                },
+            ];
+            const ans=students.map((key)=>{
+                return `<tr>
+                          <td> ${key.rollno} </td>
+                          <td> ${key.name} </td>
+                          <td> ${key.class} </td>
+                          <td> ${key.fees} </td>
+                        </tr>`  
+            })
+            document.getElementById("demo").innerHTML=`<table>
+   666             <tr>
+                    <th> Rollno </th>
+                    <th> name   </th>
+                    <th> class  </th>
+                    <th> fees   </th>
+                </tr>
+                ${ans}
+                </table>
+             `
+             ;   
+        }
+    </script>
+</head>
+<body>
+    <p id="demp"> </p>
+    <button onclick="display()"> Click here!</button>
+</body>
+</html>

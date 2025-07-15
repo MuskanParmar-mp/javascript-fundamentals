@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+let number = parseInt(prompt("Enter an integer:"));
+
+if (number % 2 === 0) {
+  console.log(`${number} is even. Printing reverse table:`);
+  for (let i = 10; i >= 1; i--) {
+    console.log(`${number} x ${i} = ${number * i}`);
+  }
+} else {
+  console.log(`${number} is odd. Printing table:`);
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${number} x ${i} = ${number * i}`);
+  }
+}
+
+</script>
+</body>
+</html>

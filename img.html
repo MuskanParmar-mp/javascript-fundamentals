@@ -1,0 +1,94 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function imgChange(){
+            document.getElementById("myimg").src="sps1.jpeg" ;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="imgChange()"> click here </button>
+    <img id="myimg" src="img.avif"  width="300" height="300">
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display1(){
+           const obj=document.getElementById("box");
+           obj.style.border="2px solid black";
+           obj.style.width="300px";
+           obj.style.padding="20px";
+           obj.style.borderRadius="20px";
+        }
+
+        function display2(){
+           const obj=document.getElementById("box");
+           obj.style.border="2px solid red";
+        }
+
+        function display3(){
+           const obj=document.getElementById("box");
+           obj.style.border="2px solid red";
+           obj.style.backgroundColor="pink";
+        }
+    </script>
+
+</head>
+<body>
+    <button onclick="display1()"> click btn1  </button>
+    <button onclick="display2()"> click btn2  </button>
+    <button onclick="display3()"> click btn3  </button>
+    <br>
+    <div id="box">
+        JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. Ninety-nine percent of websites use JavaScript on the client side for webpage behavior. Web browsers have a dedicated JavaScript engine that executes the client code.
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function display(){
+            const element=document.getElementsByTagName("h1");
+            for(var i=0; i<element.length; i++){
+                element[i].style.color="red";
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="display()"> Click here </button>
+     <div>
+    <h1> Welcone to Cybrom</h1>
+    <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dolore asperiores? Magni vitae eum beatae, cum alias nostrum ipsam at, inventore temporibus aliquid unde sequi culpa, in quos harum minus!</P>
+    </div>
+
+    <div>
+    <h2> About us</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iusto, similique cumque voluptates pariatur placeat quis dolorum culpa, architecto iure nesciunt dicta alias, laboriosam voluptatibus animi fugit veritatis corporis ea. Delectus nam amet accusantium aperiam doloribus quidem qui blanditiis, quis esse modi, vitae aspernatur quaerat corrupti eum dolores provident incidunt.</p>
+    </div>
+
+    <div>
+    <h1> Our </h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, itaque magni nihil sequi provident ipsam? Voluptatem nemo consectetur quasi architecto tempora in. Qui, eius sit!</p>
+    </div>
+    
+
+</body>
+</html>

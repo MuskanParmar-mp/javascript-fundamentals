@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display(){
+        //     const num=[34,23,20,36,45];
+        //     const ans=num.filter(key)=>{
+        //         if(key%2==0)
+        //     {
+        //         return true;
+        //     }
+        //     else{
+        //         return false;
+        //     }
+        //     }
+        //     console.log(ans);
+        // }
+
+
+        // const city=["bhopal", "sehore", "bhopal", "rewa","satna","satna"];
+        //     const ans=city.filter((key)=>{
+        //         if(key=="bhopal")
+        //     {
+        //         return true;
+        //     }
+        //     else{
+        //         return false;
+        //     }
+        //     })
+        //     console.log(ans);
+        //     console.log(ans.length);
+        // }
+
+        const num= [1,2,3,4];
+
+        const ans=num.reduce((key,item)=>{
+            return key+item
+        }, 200)
+             console.log(ans);
+        }
+    </script>
+</head> 
+<body>
+    <button onclick="display()"> click here</button>
+</body>
+</html>

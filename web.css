@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+.header{
+    display: flex;
+   justify-content: space-around; 
+   margin-top: 22px;
+}
+
+.header nav ul{
+    
+    display: flex;
+    list-style: none;
+    gap:30px;
+    margin-top: 10px;
+}
+
+.header nav ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-inline-end: 30px;
+}
+
+ .logo img   {
+    width: 200px;
+    align-items:center;
+}
+
+ .header nav .main-nav {
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+}
+
+.container main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.primary-button{
+    background-color: rgb(22, 119, 210);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white;
+    padding: 12px 24px;
+    border: 0.5px;
+}
+
+.primary-button:hover{
+    background-color: rgb(15, 10, 127);
+}
+
+.secondary-button{
+    border-color:rgb(107, 167, 219);
+    color: rgb(10, 10, 153);
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 12px 24px;
+    transition: 0.3 case-out;
+    border:0.5px solid ;
+}
+
+ header{
+    display: flex;
+}
+
+.header-section{
+    justify-content: center;
+    align-items:center ;
+    padding-left: 100px;
+}
+
+.header-left{
+    max-width: 40vw;
+}
+
+.header-right img{
+    width: 600px;
+    padding-top: 50px;
+    margin-top:24px;
+}
+
+header .header-section{
+    display: flex;
+}
+
+.header-left h1{
+    font-size:50px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    color: rgb(13, 8, 117);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.get-started-btn{
+    margin: 26px;
+    margin-bottom: 20px;
+   font-size: 20px;
+   text-decoration: none;
+}
+    
+ .get-started-btn a{
+    text-decoration: none;
+    
+    padding: 18px;
+ }  
+
+.header-left p{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+    padding-left: 23px;
+    line-height: 39px;
+}
+
+
+.companies-section{
+    text-align: center;
+     margin-block:40px;
+    color:rgb(13, 13, 88) ;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.logos {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     gap: 100px;
+}
+
+.companies-header .logos {
+    gap: 30px;   
+}
+
+.companies-header{
+    margin-bottom: 20px;
+}
+
+.logos {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img .logo{
+    gap: 20px;
+}
+
+/* desktop screen */
+
+@media screen and (max-width:768px){
+    .header-section{
+      flex-direction: column;
+    }
+
+    .header-section h1{
+        
+    }
+}
