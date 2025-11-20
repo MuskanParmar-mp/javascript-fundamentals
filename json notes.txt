@@ -1,0 +1,14 @@
+json=> js object notation
+
+json file stores the object
+json file runs on json serverc
+json file mee objectform me data store hota h
+
+
+json-server command for insatll
+   npm install -g json-server
+   
+command of running json server
+   json-server --watch filename.json   
+ 
+ 

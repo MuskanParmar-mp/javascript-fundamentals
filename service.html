@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function deleteData(){
+            localStorage.clear();
+            alert("all data clear from Localstorage");
+        }
+    </script>
 </head>
 <body>
     <body bgcolor="yellow">
 
-    <a href="index.html">  Home </a>
-    <a href="about.html">  About </a>
-    <a href="service.html">  Service </a>
-    <a href="contact.html">  Contact </a>
+    <a href="index.html">   Home </a>
+    <a href="about.html">   About </a>
+    <a href="service.html"> Service </a>
+   
     <hr>
 
-    <button onclick="window.history.go(1)">Forword ----back </button>
-    <h1> Our Servies pages </h1>
-    <hr>
-     www.mycompany.com all right reserved.2025
+    <button ondblclick="deleteData()"> Delete Data </button>
+    <h1> Our Servies pages </h1>  
+    
 </body>
 </html>

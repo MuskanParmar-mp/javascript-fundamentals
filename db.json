@@ -1,0 +1,21 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "rollno": 111,
+      "name": "Muskan",
+      "city": "Sehore",
+      "fees": 45000
+    },
+    {
+      "id": "2",
+      "rollno": 112,
+      "name": "Prachi",
+      "city": "Bhopal",
+      "fees": 55500
+    },
+    {
+      "id": "538c"
+    }
+  ]
+}

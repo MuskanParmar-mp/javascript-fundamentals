@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data = [1, 2, 3];
+
+if (Array.isArray(data)) {
+    console.log("It's an array!");
+} else {
+    console.log("It's NOT an array.");
+}
+
+    </script>
+</body>
+</html>-->
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Change Content and Color</title>
+</head>
+<body>
+
+<h1 id="demo">May the code be with you</h1>
+<button onclick="changeContent()">Click Me</button>
+
+<script>
+    function changeContent() {
+        let element = document.getElementById("demo");
+        element.innerHTML = "The code is strong with this one!";
+        element.style.color = "red "; // Change to any color you like
+    }
+</script>
+
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Find Triangle Area</h2>
+
+Base: <input id="base"><br><br>
+Height: <input id="height"><br><br>
+
+<button onclick="findArea()">Calculate</button>
+
+<p id="result"></p>
+
+<script>
+    function findArea() {
+        let b = document.getElementById("base").value;
+        let h = document.getElementById("height").value;
+
+        let area = (b * h) / 2;
+
+        document.getElementById("result").innerHTML = 
+            "Area is: " + area;
+    }
+</script>
+</body>
+</html>

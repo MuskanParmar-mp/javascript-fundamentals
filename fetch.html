@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        async function display(){
+
+            let filenm="muskan.txt";
+            // fetch(filenm).then((x)=>x.text()).then(y=>document.getElementById("demo").innerHTML=y);
+
+            let Obj = await fetch(filenm);
+            let Data = await Obj.text();
+            document.getElementById("demo").innerHTML=Data;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="display()"> click here </button>
+    <p id="demo"> </p>
+</body>
+</html>

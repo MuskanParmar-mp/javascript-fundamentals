@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{
+            width: 400;
+            height: 300;
+            background-color: blue;
+        }
+
+        #box2{
+            width: 300;
+            height: 200;
+            background-color: brown;
+        }
+
+        #box3{
+            width: 200;
+            height: 100;
+            background-color: aqua;
+        }
+
+    </style>
+
+    <script>
+        function Display1(){
+            console.log("this is a box1")
+        }
+
+        function Display2(){
+            console.log("this is a box2")
+        }
+
+        function Display3(){
+            console.log("this is a box3")
+        }
+        </script>
+</head>
+<body>
+    <div id="box1">
+        <div id="box2" onclick="Display2">
+            <div id="box3" onclick="Display3">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

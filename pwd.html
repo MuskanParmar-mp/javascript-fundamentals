@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn1"> Random Password</button>
+    <h1 id="demo"></h1>
+    <script>
+        document.getElementById("btn1").addEventListener("click", myPass);
+        
+        function myPass(){
+            let str="euhie;ofraehfio;rjakjfiooeghirejgroea!@#$%^&*()";
+            let strLen= str.length;
+            let Password="";
+
+            for(var i=0; i<=7; i++){
+                const idxNo=Math.floor((Math.random()*strLen));
+                const ans= str.charAt(idxNo);
+                Password+=ans;
+            }
+            document.getElementById("demo").innerHTML=Password;
+        }
+        </script>
+</body>
+</html>
