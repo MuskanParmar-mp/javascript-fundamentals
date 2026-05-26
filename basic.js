@@ -95,3 +95,25 @@ function addition(a, b){
     console.log(a+b);
 }
 addition(10,10);
+
+
+
+// function square(num){
+        
+//         console.log(num * num);
+// }
+// square(5);
+
+
+function square(num){
+    return num*num;
+}
+let result = square(5);
+console.log(result);
+
+
+
+function cube(num){
+    return num*num*num;
+}
+console.log(cube(3));
