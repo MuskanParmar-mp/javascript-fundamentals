@@ -117,3 +117,13 @@ function cube(num){
     return num*num*num;
 }
 console.log(cube(3));
+
+
+function checkEvenOdd(num){
+     if(num % 2 == 0){
+        return true;
+     }else{
+        return false;
+     }
+}
+console.log(checkEvenOdd(22));
