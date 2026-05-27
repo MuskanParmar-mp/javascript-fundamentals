@@ -126,4 +126,24 @@ function checkEvenOdd(num){
         return false;
      }
 }
-console.log(checkEvenOdd(22));
+console.log(checkEvenOdd(22
+      
+));
+
+
+
+function greet(name){
+    return "Hello " + name;
+}
+console.log(greet("Muskan"));
+
+
+function larger(a,b){
+    if(a > b){
+        return a;
+    }
+    else{
+        return b;
+    }
+}
+console.log(larger(10,20));
