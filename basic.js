@@ -147,3 +147,11 @@ function larger(a,b){
     }
 }
 console.log(larger(10,20));
+
+
+
+
+function greaaaat(){
+    return hello;
+}
+greaaaat();
