@@ -126,7 +126,7 @@ function checkEvenOdd(num){
         return false;
      }
 }
-console.log(checkEvenOdd(22
+console.log(checkEvenOdd(21
       
 ));
 
