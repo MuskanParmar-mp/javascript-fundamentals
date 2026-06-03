@@ -146,12 +146,7 @@ function larger(a,b){
         return b;
     }
 }
-console.log(larger(10,20));
+console.log(larger(30,20));
 
 
 
-
-function greaaaat(){
-    return hello;
-}
-greaaaat();
