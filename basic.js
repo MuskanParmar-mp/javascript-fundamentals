@@ -126,7 +126,7 @@ function checkEvenOdd(num){
         return false;
      }
 }
-console.log(checkEvenOdd(22
+console.log(checkEvenOdd(21
       
 ));
 
@@ -146,4 +146,7 @@ function larger(a,b){
         return b;
     }
 }
-console.log(larger(10,20));
+console.log(larger(30,20));
+
+
+
